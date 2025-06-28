@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quick Quiz: Are You Ready to Earn Online?</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fefefe;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #222;
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    .quiz-box {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .question {
+      font-size: 20px;
+      margin: 20px 0;
+    }
+    .answers button {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 12px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      background: #28a745;
+      color: white;
+      cursor: pointer;
+    }
+    .cta-btn {
+      display: none;
+      margin-top: 30px;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      background-color: #f44336;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Quick Quiz: Are You Ready to Make Money Online?</h1>
+  <div class="quiz-box" id="quizBox">
+    <div class="question" id="questionText">Do you use a smartphone daily?</div>
+    <div class="answers">
+      <button onclick="nextQuestion()">Yes</button>
+      <button onclick="nextQuestion()">No</button>
+    </div>
+  </div>
+
+  <button class="cta-btn" id="ctaBtn" onclick="window.location.href='https://your-affiliate-offer.com'">
+    🚀 See How to Start Earning Now
+  </button>
+</div>
+
+<!-- Quiz Script -->
+<script>
+  const questions = [
+    "Do you use a smartphone daily?",
+    "Are you interested in earning from home?",
+    "Do you have at least 1 hour per day free?",
+    "Would you like to get paid in USD?"
+  ];
+  let current = 0;
+
+  function nextQuestion() {
+    current++;
+    if (current < questions.length) {
+      document.getElementById("questionText").textContent = questions[current];
+    } else {
+      document.getElementById("quizBox").style.display = "none";
+      document.getElementById("ctaBtn").style.display = "inline-block";
+    }
+  }
+</script>
+
+<!-- Monetization Scripts -->
+<!-- Monetag In-Page Push -->
+<script data-cfasync="false" type="text/javascript" src="//go.pushnative.com/script.js"></script>
+
+<!-- Adsterra Popunder -->
+<script type='text/javascript' src='//pl15797718.profitablegatecpm.com/38/e4/95/38e495a4d48f198f6500c01469fa4b21.js'></script>
+
+<!-- PopAds Popunder -->
+<script type="text/javascript">
+  var popAdsParams = { popunder: true, multiPop: true };
+</script>
+<script type="text/javascript" src="https://www.popads.net/js/popunder.js"></script>
+
+</body>
+</html>
