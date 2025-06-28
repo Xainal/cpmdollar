@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🎁 Spin the Wheel - Win Your Online Income Booster!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fefefe;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      color: #333;
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+    .spinner {
+      margin: 20px auto;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      border: 10px solid #28a745;
+      position: relative;
+      animation: none;
+    }
+    .spin-btn {
+      margin-top: 20px;
+      padding: 15px 30px;
+      font-size: 18px;
+      background: #f44336;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .result {
+      margin-top: 30px;
+      font-size: 22px;
+      font-weight: bold;
+      display: none;
+    }
+    .cta-btn {
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      display: none;
+      cursor: pointer;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(1440deg); }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>🎉 Spin to Win: Unlock Your Online Earnings!</h1>
+  <p>Try your luck! You might unlock a method to earn $1,000+/day online.</p>
+  <div class="spinner" id="spinner" style="background: url('https://via.placeholder.com/300x300?text=SPIN+ME') no-repeat center/cover;"></div>
+  <button class="spin-btn" onclick="startSpin()" id="spinBtn">🎯 Spin Now</button>
+  <div class="result" id="resultText">🎊 Congratulations! You Unlocked the Method!</div>
+  <button class="cta-btn" id="ctaBtn" onclick="window.location.href='https://your-affiliate-offer.com'">🚀 Access Now</button>
+</div>
+
+<!-- Spinner Script -->
+<script>
+  function startSpin() {
+    const spinner = document.getElementById("spinner");
+    const resultText = document.getElementById("resultText");
+    const ctaBtn = document.getElementById("ctaBtn");
+    const spinBtn = document.getElementById("spinBtn");
+
+    spinner.style.animation = "spin 2s ease-in-out forwards";
+    spinBtn.disabled = true;
+
+    setTimeout(() => {
+      resultText.style.display = "block";
+      ctaBtn.style.display = "inline-block";
+    }, 2500);
+  }
+</script>
+
+<!-- Monetization Scripts -->
+<!-- Monetag In-Page Push -->
+<script data-cfasync="false" type="text/javascript" src="//go.pushnative.com/script.js"></script>
+
+<!-- Adsterra Popunder -->
+<script type='text/javascript' src='//pl15797718.profitablegatecpm.com/38/e4/95/38e495a4d48f198f6500c01469fa4b21.js'></script>
+
+<!-- PopAds Popunder -->
+<script type="text/javascript">
+  var popAdsParams = { popunder: true, multiPop: true };
+</script>
+<script type="text/javascript" src="https://www.popads.net/js/popunder.js"></script>
+
+</body>
+</html>
