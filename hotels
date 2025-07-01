@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover the best budget hotels in Bangkok. Book now through Agoda and enjoy exclusive deals!" />
+  <title>Top 10 Affordable Hotels in Bangkok 2025</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f7f7f7; }
+    .container { max-width: 800px; margin: auto; padding: 20px; background-color: white; }
+    h1 { text-align: center; color: #2c3e50; }
+    .hotel { margin-bottom: 25px; padding-bottom: 15px; border-bottom: 1px solid #ccc; }
+    .hotel h2 { margin: 0; font-size: 20px; color: #34495e; }
+    .hotel p { margin: 5px 0; color: #555; }
+    .cta-button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: #e74c3c;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .cta-button:hover { background-color: #c0392b; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Top 10 Affordable Hotels in Bangkok (2025)</h1>
+
+    <div class="hotel">
+      <h2>1. Ibis Bangkok Siam</h2>
+      <p>Located next to the BTS station and shopping areas. Great for city explorers.</p>
+      <p><strong>Price:</strong> From $35/night</p>
+      <a class="cta-button" href="https://www.agoda.com/your-affiliate-link-ibis" target="_blank" rel="nofollow sponsored">Book Now</a>
+    </div>
+
+    <div class="hotel">
+      <h2>2. Red Planet Bangkok Asoke</h2>
+      <p>Budget-friendly hotel near Terminal 21 and nightlife. Simple and clean.</p>
+      <p><strong>Price:</strong> From $28/night</p>
+      <a class="cta-button" href="https://www.agoda.com/your-affiliate-link-redplanet" target="_blank" rel="nofollow sponsored">Book Now</a>
+    </div>
+
+    <div class="hotel">
+      <h2>3. The Quarter Ari by UHG</h2>
+      <p>Stylish and modern hotel with rooftop pool. Perfect for digital nomads.</p>
+      <p><strong>Price:</strong> From $50/night</p>
+      <a class="cta-button" href="https://www.agoda.com/your-affiliate-link-quarterari" target="_blank" rel="nofollow sponsored">Book Now</a>
+    </div>
+
+    <!-- Add more hotel blocks here -->
+
+    <p style="text-align:center; font-size: 14px; color: #888; margin-top: 30px;">*Prices may vary. Affiliate disclosure: We may earn a commission if you book through our links.</p>
+  </div>
+</body>
+</html>
