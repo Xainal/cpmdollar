@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Media Player</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 900px;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    .iframe-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .iframe-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    h1 {
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .note {
+      margin-top: 15px;
+      font-size: 14px;
+      color: #666;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Enjoy the Content Below</h1>
+    <div class="iframe-wrapper">
+      <!-- Ganti iframe di bawah ini sesuai kebutuhan -->
+      <iframe id="intuiIframe" src="https://en.intui.travel/?p_site=2878817&constructor=1&color_scheme=bg&b=111110101111111111&h=Airport%20transfers%20executed%20by%20local%20Professional%20companies" frameborder="0" scrolling="no" width="100%" height="318px"></iframe>
+<script type="text/javascript" src="https://www.intui.travel/public/js/jquery/iframeResizer.js"></script>
+    </div>
+    <p class="note">Content is powered by a trusted provider.</p>
+  </div>
+</body>
+</html>
